@@ -1,0 +1,78 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(142, 115, 115, 0.1);
+    padding: 1rem;
+    padding-right: 100px;
+  }
+
+  .logo{
+    padding-left: 10rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  
+  .nav-links li:last-child {
+    margin-left: auto;
+    margin-right: 2rem; /* add margin to the right */
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .nav-links a:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a:hover {
+    color: #0077cc;
+    background-color: #f2f2f2;
+  }
+  
+  .nav-links .login {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-left: auto;
+  }
+
+  .nav-links .book-appointment {
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .nav-links .book-appointment:hover {
+    background-color: #005ea8;
+  }
